@@ -1,4 +1,4 @@
-NAME = templates
+NAME = iter
 
 CC					=	c++
 CC_STRICT 			=	$(CC) $(CCF_STRICT)
