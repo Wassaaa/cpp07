@@ -1,0 +1,6 @@
+templates
+en.subject.pdf
+.clang-format
+./Makefile
+.vscode/
+obj/
