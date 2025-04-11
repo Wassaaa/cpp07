@@ -3,6 +3,5 @@ iter
 array
 en.subject.pdf
 .clang-format
-./Makefile
 .vscode/
 obj/
