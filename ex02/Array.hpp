@@ -27,13 +27,14 @@ public:
             delete[] _elements;
         if (_size > 0) {
             _elements = new T[_size]();
-            for (int i = 0; i < _size; i++) {
+            for (size_t i = 0; i < _size; i++) {
                 _elements[i] = other._elements[i];
             }
         }
         else {
             _elements = nullptr;
         }
+        return *this;
     };
 
     Array(const Array &other)
